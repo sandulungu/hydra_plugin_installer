@@ -1,0 +1,21 @@
+{
+    "name": "hydra/plugin-installer",
+    "type": "composer-installer",
+    "description": "Composer custom installer for Hydra plugins.",
+    "homepage": "http://z7.github.com/hydra",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sandu Lungu",
+            "email": "sandu@lungu.info"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Hydra\\PluginInstaller": "src/"
+        }
+    },
+    "extra": {
+        "class": "Hydra\\PluginInstaller"
+    }
+}
